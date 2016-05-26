@@ -17,5 +17,7 @@
   },
   "homepage": "https://github.com/Coggle/backbone-querystring#readme",
   "dependencies": {
+    "qs": "^6.2.0",
+    "underscore": "^1.8.3"
   }
 }
