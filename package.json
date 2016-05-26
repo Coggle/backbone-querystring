@@ -1,0 +1,21 @@
+{
+  "name": "backbone-querystring",
+  "version": "0.0.1",
+  "description": "Plugin to allow setting query string parameters on models",
+  "main": "backbone.querystring.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Coggle/backbone-querystring.git"
+  },
+  "author": "Andy Pritchard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Coggle/backbone-querystring/issues"
+  },
+  "homepage": "https://github.com/Coggle/backbone-querystring#readme",
+  "dependencies": {
+  }
+}
