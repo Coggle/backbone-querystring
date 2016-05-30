@@ -1,6 +1,6 @@
 {
   "name": "backbone-querystring",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Plugin to allow setting query string parameters on models",
   "main": "backbone.querystring.js",
   "scripts": {
