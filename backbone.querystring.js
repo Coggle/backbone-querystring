@@ -15,7 +15,8 @@ module.exports = function(Backbone) {
     };
 
     function applyQuerystring(url, query) {
-        if (query && Object.keys(query).length){
+        if (query)  query = _.omit(query, function(v){ return v===undefined });
+        if (query && _.keys(query).length){
             var asString = qs.stringify(query);
             if (url.indexOf('?') === -1) {
                 url += '?'+asString;
